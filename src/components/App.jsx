@@ -1,3 +1,4 @@
+import WidgetFeedback from './Feedback/WidgetFeedback/WidgetFeedback'
 export const App = () => {
   return (
     <div
@@ -6,11 +7,11 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
+        fontSize: 25,
         color: '#010101'
       }}
     >
-      React homework template
+      <WidgetFeedback />
     </div>
   );
 };
